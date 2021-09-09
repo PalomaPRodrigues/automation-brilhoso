@@ -7,22 +7,22 @@
 Funcionalidade: redirecionamento dos links do header
 
    Como um usuario do site brilhoso
-   Quero que ao clicar no link do header 
-   Para seja redirecionada para página correta
+   Quero clicar nos links do header 
+   Para seja redirecionado para página correta
    
 Contexto:
 
 	Dado que estou na pagina home do site
-	
-Esquema do Cenario: redirecionamento do links Minha Conta
+
+Esquema do Cenario: redirecionamento do link Minha Conta
   Quando clico Minha Conta sou redirecionado para página correta
   Entao valido mensagem final com sucesso "<msgFinal>"
   
   Exemplos:
   |msgFinal            |
   |Esqueceu Sua Senha? |
-   
-Esquema do Cenario: redirecionamento do links Meus Favoritos
+ 
+Esquema do Cenario: redirecionamento do link Meus Favoritos
   Quando clico Meus Favoritos sou redirecionado para página correta
   Entao valido mensagem final com sucesso "<msgFinal>"
   
@@ -30,40 +30,41 @@ Esquema do Cenario: redirecionamento do links Meus Favoritos
   |msgFinal                       |
   |Cadastre-se ou Acesse sua Conta|
   
-Esquema do Cenario: redirecionamento do links Fechar Pedido
+Esquema do Cenario: redirecionamento do link Fechar Pedido
   Quando clico Fechar Pedido sou redirecionado para página correta
   Entao valido mensagem final com sucesso "<msgFinal>"
   
   Exemplos:
   |msgFinal      |
   |Carrinho Vazio|  
-  
-Esquema do Cenario: redirecionamento do links entrar
+
+Esquema do Cenario: redirecionamento do link entrar
   Quando clico entrar sou redirecionado para página correta
   Entao valido mensagem final com sucesso "<msgFinal>"
   
   Exemplos:
   |msgFinal                                                |
   |Se você já possui uma conta, informe os dados de acesso.|  
-  
-Esquema do Cenario: redirecionamento do links Cadastre-se
+ 
+Esquema do Cenario: redirecionamento do link Cadastre-se
   Quando clico Cadastre-se sou redirecionado para página correta
-  Entao valido mensagem final com sucesso "<msgFinal>"
+  
   
   Exemplos:
   |msgFinal   |
   |Criar Conta|
-  
-  Esquema do Cenario: redirecionamento do link procurar
+
+Esquema do Cenario: redirecionamento do link procurar
   E preencho campo Procurar no site "<campo>"
   Quando clico Procurar sou redirecionado para página correta
   Entao valido mensagem final com sucesso "<msgFinal>"
   
   Exemplos:
-  |campo | msgFinal                                                           |
-  |boinas|Boina de Espuma Branca Agressiva para Corte 3,4" (85mm) - Menzerna  |    
-  
-Esquema do Cenario: redirecionamento do links Carrinho
+  |campo | msgFinal|
+  |boinas|Início   |  
+    
+@ignore 
+Esquema do Cenario: redirecionamento do link Carrinho
   Quando clico Carrinho sou redirecionado para página correta
   Entao valido mensagem final com sucesso "<msgFinal>"
   
@@ -71,122 +72,123 @@ Esquema do Cenario: redirecionamento do links Carrinho
   |msgFinal                   |
   |Nenhum produto no carrinho.|    
   
-Esquema do Cenario: redirecionamento do links Acessórios 
+Esquema do Cenario: redirecionamento do link Acessórios 
   Quando clico Acessórios  sou redirecionado para página correta
   Entao valido mensagem final com sucesso "<msgFinal>"
   
   Exemplos:
-  |msgFinal  |
-  |Acessórios| 
+  |msgFinal|
+  |Início  | 
   
-Esquema do Cenario: redirecionamento do links Boinas e Suportes  
+Esquema do Cenario: redirecionamento do link Boinas e Suportes  
   Quando clico Boinas e Suportes  sou redirecionado para página correta
   Entao valido mensagem final com sucesso "<msgFinal>"
   
   Exemplos:
-  |msgFinal         |
-  |Boinas e Suportes|  
+  |msgFinal|
+  |Início  |  
   
-Esquema do Cenario: redirecionamento do links Ceras, Selantes, Vitrificadores e Glazes  
-  Quando clico Boinas e Suportes  sou redirecionado para página correta
+Esquema do Cenario: redirecionamento do link Ceras, Selantes, Vitrificadores e Glazes  
+  Quando clico Ceras, Selantes, Vitrificadores e Glazes sou redirecionado para página correta
   Entao valido mensagem final com sucesso "<msgFinal>"
   
   Exemplos:
-  |msgFinal                                |
-  |Ceras, Selantes, Vitrificadores e Glazes|      
+  |msgFinal|
+  |Início  |      
   
-Esquema do Cenario: redirecionamento do links Descontaminação  
+Esquema do Cenario: redirecionamento do link Descontaminação  
   Quando clico Descontaminação sou redirecionado para página correta
   Entao valido mensagem final com sucesso "<msgFinal>"
   
   Exemplos:
-  |msgFinal       |
-  |Descontaminação|         
+  |msgFinal|
+  |Início |         
   
-Esquema do Cenario: redirecionamento do links Equipamentos e Ferramentas  
+Esquema do Cenario: redirecionamento do link Equipamentos e Ferramentas  
   Quando clico Equipamentos e Ferramentas sou redirecionado para página correta
   Entao valido mensagem final com sucesso "<msgFinal>"
   
   Exemplos:
-  |msgFinal                  |
-  |Equipamentos e Ferramentas| 
+  |msgFinal|
+  |Início  | 
   
-Esquema do Cenario: redirecionamento do links Exterior  
+Esquema do Cenario: redirecionamento do link Exterior  
   Quando clico Exterior sou redirecionado para página correta
   Entao valido mensagem final com sucesso "<msgFinal>"
   
   Exemplos:
   |msgFinal|
-  |Exterior|     
+  |Início  |     
   
-Esquema do Cenario: redirecionamento do links Interior  
+Esquema do Cenario: redirecionamento do link Interior  
   Quando clico Interior sou redirecionado para página correta
   Entao valido mensagem final com sucesso "<msgFinal>"
   
   Exemplos:
   |msgFinal|
-  |Interior|
+  |Início  |
   
-Esquema do Cenario: redirecionamento do links Kits  
+Esquema do Cenario: redirecionamento do link Kits  
   Quando clico Kits sou redirecionado para página correta
   Entao valido mensagem final com sucesso "<msgFinal>"
   
   Exemplos:
   |msgFinal|
-  |Kits    |     
+  |Início  |     
   
-Esquema do Cenario: redirecionamento do links Lavagem   
+Esquema do Cenario: redirecionamento do link Lavagem   
   Quando clico Lavagem sou redirecionado para página correta
   Entao valido mensagem final com sucesso "<msgFinal>"
   
   Exemplos:
   |msgFinal|
-  |Lavagem |  
+  |Início  |  
   
-Esquema do Cenario: redirecionamento do links Lixamento   
+Esquema do Cenario: redirecionamento do link Lixamento   
   Quando clico Lixamento sou redirecionado para página correta
   Entao valido mensagem final com sucesso "<msgFinal>"
   
   Exemplos:
   |msgFinal |
-  |Lixamento| 
+  |Início   | 
   
-Esquema do Cenario: redirecionamento do links Panos / Flanelas   
+Esquema do Cenario: redirecionamento do link Panos / Flanelas   
   Quando clico Panos / Flanelas sou redirecionado para página correta
   Entao valido mensagem final com sucesso "<msgFinal>"
   
   Exemplos:
-  |msgFinal        |
-  |Panos / Flanelas|  
+  |msgFinal |
+  |Início   |  
   
-Esquema do Cenario: redirecionamento do links Polidores, Massas e Lustradores   
+Esquema do Cenario: redirecionamento do link Polidores, Massas e Lustradores   
   Quando clico Polidores, Massas e Lustradores sou redirecionado para página correta
   Entao valido mensagem final com sucesso "<msgFinal>"
   
   Exemplos:
-  |msgFinal                       |
-  |Polidores, Massas e Lustradores|  
+  |msgFinal |
+  |Início   |
   
-Esquema do Cenario: redirecionamento do links Rodas, Pneus e Motor   
+Esquema do Cenario: redirecionamento do link Rodas, Pneus e Motor   
   Quando clico Rodas, Pneus e Motor sou redirecionado para página correta
   Entao valido mensagem final com sucesso "<msgFinal>"
   
   Exemplos:
-  |msgFinal            |
-  |Rodas, Pneus E Motor| 
+  |msgFinal |
+  |Início   | 
   
-Esquema do Cenario: redirecionamento do links Cursos   
+Esquema do Cenario: redirecionamento do link Cursos   
   Quando clico Cursos sou redirecionado para página correta
   Entao valido mensagem final com sucesso "<msgFinal>"
   
   Exemplos:
   |msgFinal |
-  |Cursos   |    
+  |Início   |
   
-Esquema do Cenario: redirecionamento do links Marcass   
+Esquema do Cenario: redirecionamento do link Marcass   
   Quando clico Marcas sou redirecionado para página correta
   Entao valido mensagem final com sucesso "<msgFinal>"
   
   Exemplos:
   |msgFinal |
-  |Marcas   |                                                              
+  |Início   |
+                                                            

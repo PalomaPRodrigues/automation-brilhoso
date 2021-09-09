@@ -22,7 +22,7 @@ public class GenericsLogic extends DriverFactory {
 
 	public void validoMsg(String msgFinal) {
 		String cmpValidacao = String.format(genericsPage.getTxtVisivel(), msgFinal);
-		tempoDeEspera(300);
+		tempoDeEspera(2000);
 		WebElement xpathMsg = driver.findElement(By.xpath(cmpValidacao));
 		assertTrue(xpathMsg.isDisplayed());
 	}

@@ -12,9 +12,9 @@ public class HeaderPage {
 	private By btnProcurar = By.xpath("//*[text()='Procurar']");
 	private By btnCarrinho = By.xpath ("//*[text() ='Carrinho:']");
 	private By btnCadastre = By.xpath ("//a[text() ='Cadastre-se']");
-	private By btnAcessorios = By.xpath ("(//a[text() ='Acessórios']");
-	private By btnBoinas = By.xpath ("//a[text() ='Boinas e Suportes']");
-	private By btnCeras = By.xpath ("(//*[@id='pt_menu52']");
+	private By btnAcessorios = By.xpath ("//*[@id='pt_menu49']");
+	private By btnBoinas = By.xpath ("//*[@id ='pt_menu51']");
+	private By btnCeras = By.xpath ("//*[@id='pt_menu52']");
 	private By btnDescontaminacao= By.xpath ("//*[@id='pt_menu53']");
 	private By btnEquipamento = By.xpath ("//*[@id='pt_menu16']");
 	private By btnExterior = By.xpath ("//*[@id='pt_menu54']");

@@ -51,6 +51,58 @@ public class HeaderLogic extends DriverFactory {
 	public void clicarBoinas() {
 		headerPage.getbtnBoianas().findElement(driver).click();
 	}
+	
+	public void clicarCeras() {
+		headerPage.getbtnCeras().findElement(driver).click();
+	}
+	
+	public void clicarDescontaminação() {
+		headerPage.getbtnDescontaminacao().findElement(driver).click();
+	}
+	
+	public void clicarEquipamentos() {
+		headerPage.getbtnEquipamento().findElement(driver).click();
+	}
+	
+	public void clicarExterior() {
+		headerPage.getbtnExterior().findElement(driver).click();
+	}
+	
+	public void clicarInterior() {
+		headerPage.getbtnInterior().findElement(driver).click();
+	}
+	
+	public void clicarKits() {
+		headerPage.getbtnKits().findElement(driver).click();
+	}
+	
+	public void clicarLavagem() {
+		headerPage.getbtnLavagem().findElement(driver).click();
+	}
+	
+	public void clicarLixamento() {
+		headerPage.getbtnLixamento().findElement(driver).click();
+	}
+	
+	public void clicarPanos() {
+		headerPage.getbtnPanos().findElement(driver).click();
+	}
+	
+	public void clicarPolidores() {
+		headerPage.getbtnPolidores().findElement(driver).click();
+	}
+	
+	public void clicarRodas() {
+		headerPage.getbtnRodas().findElement(driver).click();
+	}
+	
+	public void clicarCursos() {
+		headerPage.getbtnCursos().findElement(driver).click();
+	}
+	
+	public void clicarMarcas() {
+		headerPage.getbtnMarcas().findElement(driver).click();
+	}
 
 
 }
