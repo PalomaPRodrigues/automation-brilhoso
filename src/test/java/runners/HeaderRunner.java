@@ -15,8 +15,7 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
 @CucumberOptions(features = "src/test/java/features/Header.feature", 
 				 glue = {""},
-				 tags = {"~@ignore"},
-                 plugin =  { "pretty" , "com.cucumber.listener.ExtentCucumberFormatter:target/reportTestesHeader.html"},
+                 plugin =  { "pretty", "com.cucumber.listener.ExtentCucumberFormatter:target/reportTestesHeader.html"},
                  monochrome = true,
                  snippets = SnippetType.CAMELCASE,
                  dryRun = false

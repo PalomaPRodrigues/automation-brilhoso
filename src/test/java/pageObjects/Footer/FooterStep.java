@@ -4,13 +4,12 @@ import cucumber.api.java.pt.Dado;
 import cucumber.api.java.pt.Quando;
 
 public class FooterStep {
-	
+
 	private FooterLogic footerlogic;
-	
+
 	public FooterStep() {
 		footerlogic = new FooterLogic();
 	}
-	
 
 	@Quando("^clico em Cadastro$")
 	public void clico_em_Cadastro() {
@@ -21,13 +20,13 @@ public class FooterStep {
 	@Quando("^clico em Segurança$")
 	public void clico_em_Segurança() {
 		footerlogic.clicarSeguranca();
-		
+
 	}
 
 	@Quando("^clico em Fale conosco$")
 	public void clico_em_Fale_conosco() {
 		footerlogic.clicarFaleConosco();
-		
+
 	}
 
 	@Quando("^clico em Formas de Pagamento e Envio$")
@@ -35,19 +34,18 @@ public class FooterStep {
 		footerlogic.clicarFormasDepagamentosEnvio();
 
 	}
-	
+
 	@Quando("^clico em Empresa$")
-	public void clicoEmEmpresa(){
+	public void clicoEmEmpresa() {
 		footerlogic.clicarEmpresa();
 	}
 
 	@Quando("^clico em Condicoes e Normas$")
 	public void clicoEmCondicoesENormas() {
 		footerlogic.clicarCondicaoNormas();
-	    
+
 	}
 
-	
 	@Dado("^preencho campo email \"([^\"]*)\"$")
 	public void preencho_campo_email(String email) {
 		footerlogic.preencherEmail(email);
@@ -59,11 +57,11 @@ public class FooterStep {
 		footerlogic.clicarAssinar();
 
 	}
-	
+
 	@Quando("^clico em  Youtube$")
 	public void clicoEmYoutube() {
 		footerlogic.clicarYoutube();
-	    
+
 	}
 
 	@Quando("^clico em Facebook$")

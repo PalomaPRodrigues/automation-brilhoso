@@ -87,7 +87,7 @@ public class FooterLogic extends DriverFactory {
 	@Entao("^valido o redirecionamento da página Ebit com sucesso$")
 	public void validoORedirecionamentoDaPáginaEbitComSucesso() {
 		driver.findElement(By.xpath(footerpage.getbtnEbit())).equals(footerpage.getVldEbit());
-		tempoDeEspera(1000);	
+		tempoDeEspera(1000);
 	}
 
 	public void clicarPositiveSSL() {

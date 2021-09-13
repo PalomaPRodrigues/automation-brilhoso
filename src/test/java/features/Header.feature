@@ -63,14 +63,13 @@ Esquema do Cenario: redirecionamento do link procurar
   |campo | msgFinal|
   |boinas|Início   |  
     
-@ignore 
 Esquema do Cenario: redirecionamento do link Carrinho
   Quando clico Carrinho sou redirecionado para página correta
   Entao valido mensagem final com sucesso "<msgFinal>"
   
   Exemplos:
-  |msgFinal                   |
-  |Nenhum produto no carrinho.|    
+  |msgFinal      |
+  |Carrinho Vazio|    
   
 Esquema do Cenario: redirecionamento do link Acessórios 
   Quando clico Acessórios  sou redirecionado para página correta

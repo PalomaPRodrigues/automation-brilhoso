@@ -27,11 +27,4 @@ public class GenericsLogic extends DriverFactory {
 		assertTrue(xpathMsg.isDisplayed());
 	}
 	
-	public void validoRedirecionamento(String vldRedirecionamento) {
-		String valida = String.format(genericsPage.getClassVisivel(), vldRedirecionamento);
-		tempoDeEspera(2000);
-		WebElement xpathValida = driver.findElement(By.xpath(valida));
-		assertTrue(xpathValida.isDisplayed());
-	}
-
 }
