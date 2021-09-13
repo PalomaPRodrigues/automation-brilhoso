@@ -1,4 +1,4 @@
-package pageObjectsHeader;
+package pageObjects.Header;
 
 import cucumber.api.java.pt.Dado;
 import cucumber.api.java.pt.Quando;

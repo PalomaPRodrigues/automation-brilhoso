@@ -1,4 +1,4 @@
-package pageObjectsHeader;
+package pageObjects.Header;
 
 import drive.DriverFactory;
 
@@ -13,6 +13,7 @@ public class HeaderLogic extends DriverFactory {
 	
 	public void clicarMinhaConta() {
 	headerPage.getbtnMinhaConta().findElement(driver).click();
+
 	
 	}
 	

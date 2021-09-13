@@ -13,7 +13,7 @@ import cucumber.api.junit.Cucumber;
 
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features = "src/test/java/features/Cadastro.features",
+@CucumberOptions(features = "src/test/java/features/Cadastro.feature",
                  glue = {""},
                  plugin =  { "pretty" , "com.cucumber.listener.ExtentCucumberFormatter:target/reportTestesCadastro.html"},
                  monochrome = true,

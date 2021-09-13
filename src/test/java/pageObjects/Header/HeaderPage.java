@@ -1,4 +1,4 @@
-package pageObjectsHeader;
+package pageObjects.Header;
 
 import org.openqa.selenium.By;
 

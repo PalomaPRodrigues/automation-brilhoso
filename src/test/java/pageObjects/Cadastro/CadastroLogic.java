@@ -4,14 +4,17 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 
 import drive.DriverFactory;
+import util.Generators;
+import util.RandomUtils;
 
 public class CadastroLogic extends DriverFactory {
 
 	private CadastroPage cadastroPage;
+	private RandomUtils random;
 
 	public CadastroLogic() {
 		cadastroPage = new CadastroPage();
-
+		random = new RandomUtils();
 	}
 
 	public void selecionarCadastrar() {
@@ -20,8 +23,9 @@ public class CadastroLogic extends DriverFactory {
 
 	}
 
-	public void preencherEmail(String email) {
-		cadastroPage.getCmpEmail().findElement(driver).sendKeys(email);
+	public void preencherEmail() {
+		String emailRandomico = "Teste" + random.generateRandomEmailAddress();
+		cadastroPage.getCmpEmail().findElement(driver).sendKeys(emailRandomico);
 		tempoDeEspera(500);
 	}
 
@@ -47,8 +51,9 @@ public class CadastroLogic extends DriverFactory {
 
 	}
 
-	public void preencherRg(String rg) {
-		cadastroPage.getCmpRg().findElement(driver).sendKeys(rg);
+	public void preencherRg() {
+		String rgGenerator = Generators.RG.get();
+		cadastroPage.getCmpRg().findElement(driver).sendKeys(rgGenerator);
 		tempoDeEspera(500);
 
 	}

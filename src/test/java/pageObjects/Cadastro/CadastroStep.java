@@ -18,9 +18,9 @@ public class CadastroStep {
 
 	}
 
-	@Dado("^preencho e-mail \"([^\"]*)\"$")
-	public void preenchoEMail(String email) {
-		cadastroLogic.preencherEmail(email);
+	@Dado("^preencho e-mail$")
+	public void preenchoEMail() {
+		cadastroLogic.preencherEmail();
 
 	}
 
@@ -41,9 +41,9 @@ public class CadastroStep {
 
 	}
 
-	@Dado("^preencho rg \"([^\"]*)\"$")
-	public void preenchoRg(String rg) {
-		cadastroLogic.preencherRg(rg);
+	@Dado("^preencho rg$")
+	public void preenchoRg() {
+		cadastroLogic.preencherRg();
 
 	}
 
