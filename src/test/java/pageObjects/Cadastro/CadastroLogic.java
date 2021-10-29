@@ -37,9 +37,12 @@ public class CadastroLogic extends DriverFactory {
 
 	}
 
-	public void preencherCpf(String cpf) {
-		cadastroPage.getCmpCpf().findElement(driver).sendKeys(cpf);
+	public void preencherCpf() {
+		String cpfGenerator = Generators.CPF.get();
+		cadastroPage.getCmpCpf().findElement(driver).sendKeys(cpfGenerator);
 		tempoDeEspera(500);
+//		cadastroPage.getCmpCpf().findElement(driver).sendKeys(cpf);
+//		tempoDeEspera(500);
 
 	}
 

@@ -14,7 +14,7 @@ Esquema do Cenario: Cadastro com sucesso
   E seleciono cadastre se
   E preencho e-mail 
   E seleciono tipo de cadastro "<tipoCadastro>"
-  E preencho cpf "<cpf>"
+  E preencho cpf 
   E seleciono Uf "<uf>"
   E preencho rg
   E preencho nome "<nome>"
@@ -28,5 +28,5 @@ Esquema do Cenario: Cadastro com sucesso
   Entao valido mensagem final com sucesso "<msgFinal>"
 
   Exemplos:
-  |tipoCadastro  |cpf           |uf |nome  |sobrenome|dataNascimento|genero  |senha  |confirmarSenha|msgFinal                                                                   |
-  |Pessoa física |471.690.810-08|SP |Teste |Testes   |22/07/1994    |Feminino|pwd1223|pwd1223       |Obrigado por se registrar na Brilhoso - Produtos para Estética Automotiva. |
+  |tipoCadastro  |uf |nome  |sobrenome|dataNascimento|genero  |senha  |confirmarSenha|msgFinal                                                                   |
+  |Pessoa física |SP |Teste |Testes   |22/07/1994    |Feminino|pwd1223|pwd1223       |Obrigado por se registrar na Brilhoso - Produtos para Estética Automotiva. |

@@ -78,7 +78,7 @@ Esquema do Cenario: redirecionamento do link Youtube
 	Exemplos:
   |msgFinal   |
   |BrilhosoTV |  
- 
+@fast 
  Cenario: redirecionamento do link Facebook
 	Quando clico em Facebook
   Entao valido o redirecionamento da página do Facebook com sucesso 

@@ -30,9 +30,9 @@ public class CadastroStep {
 
 	}
 
-	@Dado("^preencho cpf \"([^\"]*)\"$")
-	public void preenchoCpf(String cpf) {
-		cadastroLogic.preencherCpf(cpf);
+	@Dado("^preencho cpf$")
+	public void preenchoCpf() {
+		cadastroLogic.preencherCpf();;
 	}
 
 	@Dado("^seleciono Uf \"([^\"]*)\"$")

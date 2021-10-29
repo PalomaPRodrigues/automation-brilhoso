@@ -19,8 +19,8 @@ Esquema do Cenario: Login com sucesso
 	Entao valido mensagem final com sucesso "<msgFinal>"
 
 	Exemplos:
-	|email                     |senha  |msgFinal              |
-	|paloma.gpedro@hotmail.com |pwd1222|Informações de Contato|
+	|email            |senha  |msgFinal              |
+	|teste1@gmail.com |pwd1222|Informações de Contato|
 	
 	
 

@@ -62,18 +62,18 @@ public class FooterLogic extends DriverFactory {
 
 	public void clicarFacebook() {
 		driver.switchTo().frame(0);
-		tempoDeEspera(700);
+		tempoDeEspera(5000);
 		WebElement searchBtn = driver.findElement(By.xpath(footerpage.getbtnFacebook()));
 		Actions actions = new Actions(driver);
 		actions.click(searchBtn).build().perform();
-
+		
 	}
 
 	@SuppressWarnings("unlikely-arg-type")
 	@Entao("^valido o redirecionamento da página do Facebook com sucesso$")
 	public void validoRedirecionadomentoComSucesso() {
 		driver.findElement(By.xpath(footerpage.getbtnFacebook())).equals(footerpage.getvldFacebook());
-		tempoDeEspera(1000);
+		tempoDeEspera(5000);
 	}
 
 	public void clicarEbit() {

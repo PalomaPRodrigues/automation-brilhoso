@@ -13,7 +13,7 @@ public class FooterPage {
 	private By cmpEmail = By.xpath("//input[@id='newsletter']");
 	private By btnAssinar = By.xpath("//span[text()='Assinar']");
 	private By btnYoutube = By.xpath("//a[text()=' Veja mais em nosso canal']");
-	private String btnfacebook = "//a[text()='Brilhoso']";
+	private String btnfacebook = "(//*[@href='https://www.facebook.com/LojaBrilhoso/'])[1]";
 	private By validoFacebook = By.xpath("//i[@class='fb_logo img sp_ajfzHHnyL95 sx_648232']");
 	private String btnEbit = "//img[@src='https://newimgebit-a.akamaihd.net/ebitBR/selo/img_42875.png']";
 	private By validoEbit = By.xpath("//a[@class='nav-brand logo-ebit']");
